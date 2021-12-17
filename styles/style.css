@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+
+body, html {
+    height: 100%;
+    background-color: #252144;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Mulish", sans-serif;
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.profiles {
+    width: 739px;
+    height: 545px;
+    background-color: #141324;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 7px 32px -16px rgba(0, 0, 0, 0.75);
+}
+
+.profiles .title {
+    font-weight: 700;
+    font-size: 28px;
+    color: #D1D5E5;
+    margin-top: 85px;
+}
+
+.profiles .cards {
+    display: flex;
+    margin-top: 33px;
+}
+
+.profiles .cards .card, .add-card {
+    width: 150px;
+    height: 190px;
+    background-color: #1A182D;
+    margin-right: 25px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 5px 0 5px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.profiles .cards .card:hover, .add-card:hover {
+    transform: translateY(-5px);
+    background-color: #181629;
+}
+
+.profiles .cards .card .card-image {
+    width: 80px;
+    height: 80px;
+    background-color: #141324;
+    border-radius: 50%;
+}
+
+.profiles .cards .card .card-user {
+    font-weight: 600;
+    font-size: 16px;
+    color: #D1D5E5;
+    margin-top: 20px;
+}
+
+.add-card {
+    margin-right: 0;
+}
+
+.profiles .cards .add-card .add-card-icon {
+    width: 44px;
+    height: 44px;
+}
+
+.profiles .cards .add-card .add-card-text {
+    font-weight: 600;
+    font-size: 16px;
+    color: #5A9EE2;
+    margin-top: 54px;
+}
+
+.button {
+    width: 194px;
+    height: 45px;
+    color: #5A9EE2;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 22px;
+    border: 1px solid #1D3149;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 70px;
+    transition: all .2s ease-in-out;
+}
+
+.button:hover {
+    background-color: #10101d;
+}
